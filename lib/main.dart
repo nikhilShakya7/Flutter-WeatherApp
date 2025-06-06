@@ -290,7 +290,7 @@ class _WeatherAppState extends State<WeatherApp> with TickerProviderStateMixin {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        '${temperature!.toStringAsFixed(0)}',
+                        temperature!.toStringAsFixed(0),
                         style: const TextStyle(
                           fontSize: 64,
                           fontWeight: FontWeight.w300,
